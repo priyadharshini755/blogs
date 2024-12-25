@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+   font-family: "Roboto", serif;
+}
+.blog2 img {
+   aspect-ratio: 7/4 !important;
+}
+.text-box p {
+   display: flex;
+   text-align: start;
+   font-size: 0.9rem;
+}
+.icon-text i{
+   border: solid black 1px !important;
+   align-content: center !important;
+   margin: 0 0.3rem 1rem 0;
+   padding: 0 0.5rem;
+}
+.icon-text p{
+   border: solid black 1px !important;
+   /* text-align: center !important; */
+   /* align-items: center !important; */
+   align-content: center !important;
+   padding: 0.8rem 1rem;
+   font-weight: bold;
+}
+.date{
+   background-color: #62ccbf;
+   padding: 0;
+   margin: 0 14rem 0 0;
+   position: absolute;
+   bottom: 8px;
+   left: 5px;
+}
+.date p{
+   font-size: 0.9rem;
+   color: white !important;
+   font-weight: bold;
+}
+.period {
+   position: relative;
+}
+  
